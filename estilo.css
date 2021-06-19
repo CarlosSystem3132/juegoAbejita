@@ -1,0 +1,45 @@
+* {
+	background-image: url(img/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.contenedor {
+	background-image: url(img/abejas-volando-jardin-girasol_33070-1582.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    
+    border: 10px dashed rgb(51, 61, 153);
+}
+
+
+
+#jugador {
+	
+	background-image: url(img/jugador.png);
+    background-size: cover;
+	background-position: center;
+	border: 2px dashed rgb(51, 23, 23);
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	transition: all 0.3s;
+}
+.puntos {
+	
+	height: 30px;
+	margin-top: 30px;
+	border-bottom: 0px;
+	color: rgb(22, 8, 8);
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px;
+}
+
